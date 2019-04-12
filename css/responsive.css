@@ -1,0 +1,30 @@
+@media screen and (min-width: 320px) and (max-width: 960px) {
+	.footer-left ul li {
+	    margin: 0 9px;
+	}
+	.products-top h5, .fonta li {
+		font-size: 14px;
+	}
+	.blog h3 {
+		font-size: 18px;
+	    line-height: 24px;
+	    font-weight: 600;
+	}
+	.blog p {
+		color: black;
+	}
+	.gallery-grids img {
+		width: 100%;
+		height: 180px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.footer-left ul li {
+	    margin: 0 5px;
+	}
+}
+
+.blog p {
+	line-height: 29px;
+}

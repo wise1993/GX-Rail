@@ -1,0 +1,139 @@
+.wrong-item {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    -webkit-transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.item {
+    display: inline-block;
+    background-color: rgba(85, 85, 85, 0);
+    width: 343px;
+    padding: 23px;
+    line-height: 37px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center
+}
+
+@media screen and (min-width: 320px) and (max-width: 960px) {
+	.item {
+		width: 100%;
+	}
+}
+
+.wrong-item:hover, .wrong-item:active {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+}
+.wrong-item {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    -webkit-transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.wrong-item p {
+    padding: 36px;
+    margin-left: -11px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.fonta span {
+	margin-left: 20px;
+}
+.fonta p {
+	font-size: 18px;
+}
+
+.fonta li {
+	line-height: 29px;
+    font-size: 16px
+}
+.about-info p {
+	font-size: 14px;
+    margin: 1em 0 0 0;
+    line-height: 30px;
+    font-weight: 600;
+}
+.bottom-back {
+	background: rgba(0, 0, 0, 0.71);
+    padding-top: 10px;
+    padding-bottom: 58px;
+}
+@media screen and (min-width: 320px) and (max-width: 960px) {
+	.tt {
+		padding: 0px !important;
+	}
+	#backGX {
+	    height: 175px;
+	}
+}
+
+.tt img {
+	width: 100%;
+    margin: auto;
+}
+
+.box {
+    border: 1px solid #292626;
+    height: 150px;
+    margin-bottom: 12px;
+}
+@media screen and (max-width: 320px) and (min-width: 960px0) {
+	.box {
+    height: 100%;
+}
+}
+.boxInner {
+	color: #2f442f;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 17px 0 15px;
+}
+
+.boxInner li {
+	margin-left: -18px;
+	font-size: 14px
+}
+
+.warehouse {
+	margin-top: 54px;
+	margin-bottom: 43px;
+}
+
+.housingtext h3 {
+	color: #2f442f;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+.housingtext p {
+	color: black;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.botomImg {
+    margin-bottom: 15px
+}
+
+.tImg span {
+    font-size: 13px;
+}
+
+.blog h5 {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
